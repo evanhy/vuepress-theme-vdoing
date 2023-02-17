@@ -14,7 +14,7 @@ const WEB_SITE = `https://${DOMAIN_NAME}` // 网址
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
   theme: 'vdoing', // 使用npm主题包
   // theme: resolve(__dirname, '../../vdoing'), // 使用本地主题包
-
+  dest: 'dist',
   locales: {
     '/': {
       lang: 'zh-CN',
@@ -166,8 +166,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
-      name: 'xugaoyi', // 必需
-      link: 'https://github.com/xugaoyi', // 可选的
+      name: 'huyu', // 必需
+      link: 'https://github.com/pan52yu', // 可选的
     },
 
     // 博主信息 (显示在首页侧边栏)
